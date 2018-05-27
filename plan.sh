@@ -18,7 +18,7 @@ pkg_exports=(
 )
 pkg_exposes=(port)
 
-pkg_bind_optional=(
+pkg_binds_optional=(
   [consul-client]="client_addr"
 )
 
