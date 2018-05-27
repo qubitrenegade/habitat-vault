@@ -19,7 +19,7 @@ pkg_exports=(
 pkg_exposes=(port)
 
 pkg_bind_optional=(
-  [consul-client]="address"
+  [consul-client]="client_addr"
 )
 
 do_unpack() {
